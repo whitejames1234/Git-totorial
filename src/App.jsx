@@ -1,7 +1,10 @@
+import Hearder from "./Hearder"
+
 function App() {
   return (
     <div className="text-[30px] text-center text-gray-50 px-4 py-4 bg-green-600 uppercase	font-semibold ">
-      hello world
+       <Hearder />
+      <p>hello every one this is me right here</p> 
     </div>
   )
 }
